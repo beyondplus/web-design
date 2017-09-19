@@ -1,0 +1,20 @@
+h3 { color: #fff }
+.title { padding-top: 200px; }
+.title h1 { font-size: 80px;color:#fff; }
+.titlelink { color: #fff;text-decoration: underline; }
+.bg { background: url('./../img/bg.jpg');min-height: 760px }
+.menu ul li { float: left;color:#fff;padding: 5px; list-style-type: none; }
+.menu ul li a {color: #fff;text-decoration: none;}
+.menu ul li a:hover {color: #e2e2e2;}
+.blue { background: blue;color : #fff; width: 100px}
+
+.main-menu { position: relative;  }
+.sub-menu { background: #e2e2e2;display: none;position: absolute;width: 1000px;padding: 10px; }
+.main-menu:hover .sub-menu { display: inline-block; }
+.phonedesc { padding: 100px;}
+.entertainment { background: #000;color:#fff;padding: 100px;}
+.paragraph { padding: 30px; }
+.list h5 {color: black;}
+.list ul{ padding: 0px;list-style-type: none; }
+.list ul li {color: #20a2ff;}
+.footer {background: black;height: 50px;padding: 10px;color:#fff;}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//var arrayName = ["hello","World","Myanmar"];
+		// var arrayName = new Array("hello","World","Myanmar");
+		// console.log(arrayName[0]);
+
+		// var jsonObject = {"firstName" : "hello1","lastName" :"World"};
+
+		// console.log(jsonObject.lastName);
+
+		// if(jsonObject.firstName == "hello") {
+		// 	alert("True");
+		// } else {
+		// 	alert("False");
+		// }
+		// var mark = 90;
+		// if(mark > 80) {
+		// 	document.write("credit");
+		// } 
+		// else if (mark > 40) {
+		// 	document.write("pass");
+		// }
+		// else {
+		// 	document.write("fail");
+		// }
+
+		console.log(new Date());
+		console.log(new Date().getDate());
+		console.log(new Date().getDay());
+		switch(new Date().getDay()) {
+			case 1:
+				document.write("Monday");
+				break;
+			case 2:
+				document.write("Tueday");
+				break;
+			case 3:
+				document.write("Wednesday");
+				break;
+			case 4:
+				document.write("Thurday");
+				break;
+			case 5:
+				document.write("Friday");
+				break;
+			case 6:
+				document.write("Saturday");
+				break;
+			default:
+				document.write("Sunday");
+		}
+
+
+		// var arrayName = ["hello","World","Myanmar"];
+
+		// for(var i=0; i < 3; i++) {
+		// 	document.write(arrayName[i]);
+		// }
+
+		var arrayName = ["hello","World","Myanmar"];
+
+		for(var i=0; i < 3; i++) {
+			// if(i == 2) {
+			// 	document.write(arrayName[i]);	
+			// }
+			for(var j=0; j <3 ; j++) {
+				document.write(arrayName[j]);
+			}
+		}
+	</script>
+</body>
+</html>

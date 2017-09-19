@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		ul { list-style: none; }
+		ul li { float: left;padding: 10px;background: #e2e2e2; }
+		ul li a {text-decoration: none;color: #d54848;}
+		ul li a:hover {color:#3dee8f;}
+		.sub-menu { display: inline-block;position: relative; }
+		.show-sub-menu { display: none;position: absolute;background: #e2e2e2;width:150px;padding: 10px; }
+		.sub-menu:hover .show-sub-menu { display: inline-block; }
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li class="sub-menu">
+			<a href="service.html">Service</a>
+			<ul class="show-sub-menu">
+				<li><a href="">Computer Service</a></li>
+				<li><a href="">Mobile Service</a></li>
+				<li><a href="">Sale Service</a></li>
+			</ul>
+		</li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,9 @@
+a { color: #18bc9c; }
+.logo img {padding-top: 20px;}
+.head-project ul { list-style-type: none;padding: 0px; }
+.nav { background-color: #e2e2e2; }
+.menu ul { padding: 10px; }
+.menu ul li { display: inline;padding: 10px; }
+.middle-box { background: #102A5F;color:#fff; padding: 50px;}
+.third-box {padding: 50px;}
+.footer {    background: #33495e;padding: 20px 0;color: #fff;font-size: 13px;}
